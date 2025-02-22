@@ -1,263 +1,142 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title> &mdash; JOMACSIT</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content=" HTML5 Website " />
-	<meta name="keywords" content=" html5, template,  bootstrap, f css3, mobile first, responsive" />
-	<meta name="author" content="hml5.co" />
-	
-	</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <br><br>
+    <title>Jomacsit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-   	  <body class="overflow offcanvas">
-		
-	<div class="fh5co-loader" style="display: none;"></div>
-	
-	<div id="page"><a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white active">
-	<i>
-	
-	</i>
-	</div>
-		
-		  <div id="fh5co-offcanvas" class="__web-inspector-hide-shortcut__"> 
-			  <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#training">Training</a></li>
-          <li><a href="#careers">Careers</a></li>
-          <li><a href="#clients">Clients</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
-          <li><a href="#inquiry">Inquiry</a></li>
-        </ul>
-	</div>
-	</a><div id="fh5co-offcanvas"></div>
-	
-	
     <header>
       <nav>
-        <div>
-          <a href="#home" class="logo"
-            ><img src="Jomacs logo.jpg" alt="JOMACSIT Logo"
-          /></a><br><br><br>
-          <a href="#contact-us" class="btn-lets-talk">Let's Talk</a>
-        </div>
-       
-      </nav>
-    </header>
-
-    <section id="hero">
-      <div class="hero-container">
-        <h1>Welcome to JOMACSIT</h1>
-        <p>Your one-stop solution for all your needs</p>
-        <a href="#about-us" class="btn">Learn More</a>
-      </div>
-    </section>
-    <style>
-        body {
-          margin: 0;
-          font-family: Arial, sans-serif;
-        }
-      .navbar {
-    background-color: lightblue;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-.icon {
-    color: red;
-}
-	    .offcanvas #page {
-  overflow: hidden;
-  position: absolute;
-}
-.offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
-  content: "";
-}
-
-.menu-button {
-    background-color: blue;
-    color: white;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-  
-        header {
-          background-color: #e5e7e888;
-          padding: 1em 0;
-          display: block;
-          border-radius: 40px;
-          color: #ede6e6a7;
-          position: relative;
-        }
-  
-        nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 0 20px;
-          flex-wrap: wrap;
-        }
-  
-        .logo img {
-          height: 50px;
-        }
-  
-        .btn-lets-talk {
-          padding: 15px 25px;
-          background: linear-gradient(90deg, rgb(13, 47, 217), #8804f5e0);
-          color: white;
-          text-decoration: none;
-          border-radius: 20px;
-          font-weight: bold;
-          transition: background-color 0.3s ease;
-        }
-  
-        .btn-lets-talk:hover {
-          background-color: #007bff;
-        }
-  
-        nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          gap: 20px;
-          flex-wrap: wrap;
-        }
-  
-        nav ul li {
-          display: inline;
-        }
-  
-        nav ul li a {
-          color: #333;
-          text-decoration: none;
-          font-weight: bold;
-        }
-  
-        #hero {
-          background: url("your-image.jpg") no-repeat center center/cover;
-          height: 100vh;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: white;
-          text-align: center;
-        }
-  
-        .hero-container {
-          background-color: rgba(0, 0, 0, 0.5);
-          padding: 20px;
-          border-radius: 10px;
-        }
-  
-        .hero-container h1 {
-          font-size: 3em;
-          margin: 0;
-        }
-  
-        .hero-container p {
-          font-size: 1.5em;
-          margin: 10px 0;
-        }
-  
-        .hero-container .btn {
-          padding: 10px 20px;
-          background-color: rgb(96, 96, 236);
-          color: white;
-          text-decoration: none;
-          border-radius: 5px;
-          font-weight: bold;
-          transition: background-color 0.3s ease;
-        }
-  
-        .hero-container .btn:hover {
-          background-color: #eceff1;
-        }
-  
-        /* Media queries for responsiveness */
-        @media (max-width: 768px) {
-          nav ul {
-            flex-direction: column;
-            gap: 10px;
-          }
-		
-.fh5co-nav {
-  margin: 0;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav {
-    margin: 0;
-  }
-}
-.fh5co-nav .top-menu {
-  padding: 0 0;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav .top-menu {
-    padding: 28px 1em;
-  }
-}
-.fh5co-nav #fh5co-logo {
-  font-size: 45px;
-  margin: 0;
-  padding: 1em 0;
-  font-family: "Libre Baskerville", serif;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav #fh5co-logo {
-    border-bottom: none;
-    padding: .1em 0;
-  }
-}
-.fh5co-nav #fh5co-logo a {
-  color: #658361;
-}
-.fh5co-nav a {
-  padding: 5px 10px;
-  color: #000;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav .menu-1 {
-    display: none;
-  }
-}
         
-.fh5co-nav ul {
-  padding: 20px 0;
-  margin: 0;
-  
-          nav ul li a {
-            display: block;
-          }
-  
-          nav {
-            flex-direction: column;
-          }
-  
-          .btn-lets-talk {
-            margin-top: 15px;
-          }
-        }
-      </style>
+        <div class="logo-container">
+            <a href="#home" class="logo"
+            ><br><img src="Jomacs logo.jpg" alt="JOMACSIT Logo"
+          /></a>
+                            
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Training</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Inquiry</a></li>
+        </ul>
+      </nav>
+      <br>
+      <br>
+      <div>
+        <a href="#contact-us" class="btn-lets-talk">Let's Talk</a
+            >
+    </div>
+    <br>
+    <br>
+    
+    </header>
+    <section class="hero">
+      <h1></h1>
+      <p>
+        
+      </p>
+    </section>
   </body>
+  <style>
+    /* styles.css */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #dedad680;
+      color: rgb(10, 9, 9);
+      padding: 10px 20px;
+      border-radius: 60px;
+    }
+    .logo img {
+        height: 50px;
+      }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+
+    .btn-lets-talk {
+        padding: 15px 25px;
+        background: linear-gradient(90deg, rgb(13, 47, 217), #8804f5e0);
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-top: 15px; /* Added margin for positioning */
+      }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin: 0 15px;
+    }
+
+    .nav-links a {
+      color: rgb(19, 19, 19);
+      text-decoration: none;
+    }
+
+    .hero {
+      background-image: url(/bk.png);
+      background-size: 100% 100%;
+      animation: gradient 10s ease infinite;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgb(144, 28, 28);
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
 </html>
